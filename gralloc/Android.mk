@@ -18,7 +18,6 @@ LOCAL_C_INCLUDES              += external/libcxx/include \
                                  system/core/libion/kernel-headers/ \
                                  $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_SHARED_LIBRARIES        += libion
-LOCAL_CFLAGS                  += -std=c++14
 endif
 ifeq ($(TARGET_KERNEL_VERSION), 4.19)
 LOCAL_C_INCLUDES              += external/libcxx/include \
